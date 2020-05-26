@@ -39,7 +39,7 @@
           </div>
           <div class="flex justify-between items-center">
             <p class="text-sm text-gray-600 leading-normal">{{ detail.created_at }}</p>
-            <a :href="'/jobs/'+detail.id" class="border-b-2 text-sm inline-flex text-indigo-600 border-indigo-200 hover:text-indigo-700 hover:border-indigo-400">查看详情</a>
+            <a :href="'/jobs/'+detail.id" class="border-b-2 text-sm inline-flex text-teal-600 border-teal-200 hover:text-teal-700 hover:border-teal-400">查看详情</a>
           </div>
         </div>
       </div>

@@ -526,7 +526,7 @@ var render = function() {
                 "a",
                 {
                   staticClass:
-                    "border-b-2 text-sm inline-flex text-indigo-600 border-indigo-200 hover:text-indigo-700 hover:border-indigo-400",
+                    "border-b-2 text-sm inline-flex text-teal-600 border-teal-200 hover:text-teal-700 hover:border-teal-400",
                   attrs: { href: "/jobs/" + _vm.detail.id }
                 },
                 [_vm._v("查看详情")]
@@ -571,11 +571,11 @@ var render = function() {
         _vm._m(0),
         _vm._v(" "),
         _c("div", {
-          staticClass:
-            "hidden md:block absolute top-0 right-0 mt-6 bg-indigo-50",
+          staticClass: "hidden md:block absolute top-0 right-0 mt-6",
           staticStyle: {
             height: "100%",
             width: "45%",
+            "background-color": "rgb(238,248,244)",
             "border-top-left-radius": "150px"
           }
         }),
@@ -661,7 +661,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "hidden" }, [
       _c("div", {
         staticClass:
-          "h-4 w-24 bg-indigo-100 absolute left-0 top-0 mt-4 transform skew-x-0 -skew-y-20"
+          "h-4 w-24 bg-teal-100 absolute left-0 top-0 mt-4 transform skew-x-0 -skew-y-20"
       }),
       _vm._v(" "),
       _c("div", {
@@ -676,7 +676,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", {
         staticClass:
-          "-mb-10 h-16 w-32 bg-indigo-200 absolute left-0 bottom-0 transform skew-x-0 -skew-y-20"
+          "-mb-10 h-16 w-32 bg-teal-200 absolute left-0 bottom-0 transform skew-x-0 -skew-y-20"
       }),
       _vm._v(" "),
       _c("div", {
@@ -691,17 +691,17 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", {
         staticClass:
-          "h-10 w-10 bg-indigo-400 absolute right-0 top-0 mt-16 mr-6 transform skew-x-0 -skew-y-20"
+          "h-10 w-10 bg-teal-400 absolute right-0 top-0 mt-16 mr-6 transform skew-x-0 -skew-y-20"
       }),
       _vm._v(" "),
       _c("div", {
         staticClass:
-          "h-10 w-10 bg-indigo-200 absolute right-0 top-0 mt-10 mr-10 transform skew-x-0 -skew-y-20"
+          "h-10 w-10 bg-teal-200 absolute right-0 top-0 mt-10 mr-10 transform skew-x-0 -skew-y-20"
       }),
       _vm._v(" "),
       _c("div", {
         staticClass:
-          "mb-32 h-16 w-32 bg-indigo-200 absolute right-0 bottom-0 transform skew-x-0 -skew-y-20"
+          "mb-32 h-16 w-32 bg-teal-200 absolute right-0 bottom-0 transform skew-x-0 -skew-y-20"
       }),
       _vm._v(" "),
       _c("div", {
@@ -728,7 +728,7 @@ var staticRenderFns = [
             "p",
             {
               staticClass:
-                "mb-1 text-indigo-600 text-xl md:text-2xl text-base text-gray-600 leading-normal"
+                "mb-1 text-teal-600 text-xl md:text-2xl text-base text-gray-600 leading-normal"
             },
             [_vm._v("想成为或寻找远程工作者？")]
           ),
@@ -752,7 +752,7 @@ var staticRenderFns = [
               "a",
               {
                 staticClass:
-                  "block w-full md:w-auto mx-auto shadow-md inline-flex items-center justify-center font-medium focus:outline-none rounded-lg px-6 py-3 border-2 border-indigo-600 bg-indigo-600 hover:bg-indigo-700 hover:border-indigo-700 text-white",
+                  "block w-full md:w-auto mx-auto shadow-md inline-flex items-center justify-center font-medium focus:outline-none rounded-lg px-6 py-3 border-2 border-teal-600 bg-teal-600 hover:bg-teal-700 hover:border-teal-700 text-white",
                 attrs: { href: "#" }
               },
               [_vm._v("我要找工作")]
@@ -766,7 +766,7 @@ var staticRenderFns = [
                   "a",
                   {
                     staticClass:
-                      "block w-full md:w-auto shadow-md inline-flex items-center justify-center font-medium focus:outline-none rounded-lg px-6 py-3 border-2 border-white bg-white bg-white text-indigo-600 hover:text-indigo-800",
+                      "block w-full md:w-auto shadow-md inline-flex items-center justify-center font-medium focus:outline-none rounded-lg px-6 py-3 border-2 border-white bg-white bg-white text-teal-600 hover:text-teal-800",
                     attrs: { href: "#" }
                   },
                   [_vm._v("我要招聘")]
@@ -811,7 +811,7 @@ var staticRenderFns = [
         "a",
         {
           staticClass:
-            "inline-flex items-center justify-center shadow hover:shadow-md font-medium focus:outline-none rounded-lg px-8 py-3 border-2 border-indigo-600 bg-indigo-600 hover:bg-indigo-700 hover:border-indigo-700 text-white",
+            "inline-flex items-center justify-center shadow hover:shadow-md font-medium focus:outline-none rounded-lg px-8 py-3 border-2 border-teal-600 bg-teal-600 hover:bg-teal-700 hover:border-teal-700 text-white",
           attrs: { href: "#" }
         },
         [_vm._v("更多推荐")]
@@ -845,7 +845,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass:
-                "px-4 py-1 rounded-full text-sm uppercase tracking-wide inline-block mr-2 mb-3 bg-indigo-50 text-indigo-600 hover:bg-indigo-100",
+                "px-4 py-1 rounded-full text-sm uppercase tracking-wide inline-block mr-2 mb-3 bg-teal-50 text-teal-600 hover:bg-teal-100",
               attrs: { href: "#" }
             },
             [_vm._v("技术")]
@@ -855,7 +855,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass:
-                "px-4 py-1 rounded-full text-sm uppercase tracking-wide inline-block mr-2 mb-3 bg-indigo-50 text-indigo-600 hover:bg-indigo-100",
+                "px-4 py-1 rounded-full text-sm uppercase tracking-wide inline-block mr-2 mb-3 bg-teal-50 text-teal-600 hover:bg-teal-100",
               attrs: { href: "#" }
             },
             [_vm._v("设计")]
@@ -865,7 +865,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass:
-                "px-4 py-1 rounded-full text-sm uppercase tracking-wide inline-block mr-2 mb-3 bg-indigo-50 text-indigo-600 hover:bg-indigo-100",
+                "px-4 py-1 rounded-full text-sm uppercase tracking-wide inline-block mr-2 mb-3 bg-teal-50 text-teal-600 hover:bg-teal-100",
               attrs: { href: "#" }
             },
             [_vm._v("运营")]
@@ -875,7 +875,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass:
-                "px-4 py-1 rounded-full text-sm uppercase tracking-wide inline-block mr-2 mb-3 bg-indigo-50 text-indigo-600 hover:bg-indigo-100",
+                "px-4 py-1 rounded-full text-sm uppercase tracking-wide inline-block mr-2 mb-3 bg-teal-50 text-teal-600 hover:bg-teal-100",
               attrs: { href: "#" }
             },
             [_vm._v("产品")]
@@ -885,7 +885,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass:
-                "px-4 py-1 rounded-full text-sm uppercase tracking-wide inline-block mr-2 mb-3 bg-indigo-50 text-indigo-600 hover:bg-indigo-100",
+                "px-4 py-1 rounded-full text-sm uppercase tracking-wide inline-block mr-2 mb-3 bg-teal-50 text-teal-600 hover:bg-teal-100",
               attrs: { href: "#" }
             },
             [_vm._v("市场")]
@@ -895,7 +895,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass:
-                "px-4 py-1 rounded-full text-sm uppercase tracking-wide inline-block mr-2 mb-3 bg-indigo-50 text-indigo-600 hover:bg-indigo-100",
+                "px-4 py-1 rounded-full text-sm uppercase tracking-wide inline-block mr-2 mb-3 bg-teal-50 text-teal-600 hover:bg-teal-100",
               attrs: { href: "#" }
             },
             [_vm._v("销售")]
@@ -905,7 +905,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass:
-                "px-4 py-1 rounded-full text-sm uppercase tracking-wide inline-block mr-2 mb-3 bg-indigo-50 text-indigo-600 hover:bg-indigo-100",
+                "px-4 py-1 rounded-full text-sm uppercase tracking-wide inline-block mr-2 mb-3 bg-teal-50 text-teal-600 hover:bg-teal-100",
               attrs: { href: "#" }
             },
             [_vm._v("其他")]
@@ -966,7 +966,7 @@ var staticRenderFns = [
         "div",
         {
           staticClass:
-            "shadow w-full rounded-lg bg-white overflow-hidden w-full block mb-5 relative bg-indigo-100 px-5 py-5"
+            "shadow w-full rounded-lg bg-white overflow-hidden w-full block mb-5 relative bg-teal-100 px-5 py-5"
         },
         [
           _c(
@@ -1017,7 +1017,7 @@ var staticRenderFns = [
       "div",
       {
         staticClass:
-          "bg-indigo-800 px-4 pt-10 md:pt-16 border-b border-gray-200 relative",
+          "bg-teal-800 px-4 pt-10 md:pt-16 border-b border-gray-200 relative",
         attrs: { id: "subscribe" }
       },
       [
@@ -1033,7 +1033,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c(
             "p",
-            { staticClass: "md:text-center mb-5 text-indigo-300 md:text-lg" },
+            { staticClass: "md:text-center mb-5 text-teal-300 md:text-lg" },
             [
               _vm._v(
                 "订阅我们的职位周刊，即可在收件箱中直接获取与工作，职业，公司等相关的信息。无论您是寻找全职，兼职还是实习机会，我们都能满足您的需求。保证没有垃圾邮件。"
@@ -1066,7 +1066,7 @@ var staticRenderFns = [
                     _c("div", { staticClass: "relative" }, [
                       _c("input", {
                         staticClass:
-                          "px-2 py-2 h-12 leading-normal block w-full text-gray-800 bg-white font-sans rounded-lg text-left appearance-none outline-none border-2 focus:border-indigo-600 focus:border-indigo-600",
+                          "px-2 py-2 h-12 leading-normal block w-full text-gray-800 bg-white font-sans rounded-lg text-left appearance-none outline-none border-2 focus:border-teal-600 focus:border-teal-600",
                         attrs: {
                           id: "subscribe-name",
                           type: "text",
@@ -1092,7 +1092,7 @@ var staticRenderFns = [
                     _c("div", { staticClass: "relative" }, [
                       _c("input", {
                         staticClass:
-                          "px-2 py-2 h-12 leading-normal block w-full text-gray-800 bg-white font-sans rounded-lg text-left appearance-none outline-none border-2 focus:border-indigo-600 focus:border-indigo-600",
+                          "px-2 py-2 h-12 leading-normal block w-full text-gray-800 bg-white font-sans rounded-lg text-left appearance-none outline-none border-2 focus:border-teal-600 focus:border-teal-600",
                         attrs: {
                           id: "subscribe-email",
                           type: "email",
@@ -1112,7 +1112,7 @@ var staticRenderFns = [
                     "button",
                     {
                       staticClass:
-                        "shadow hover:shadow-md w-full md:w-auto inline-flex items-center justify-center font-medium focus:outline-none rounded-lg px-6 py-2 h-12 border-2 border-indigo-600 bg-indigo-600 hover:bg-indigo-700 hover:border-indigo-700 text-white"
+                        "shadow hover:shadow-md w-full md:w-auto inline-flex items-center justify-center font-medium focus:outline-none rounded-lg px-6 py-2 h-12 border-2 border-teal-600 bg-teal-600 hover:bg-teal-700 hover:border-teal-700 text-white"
                     },
                     [_vm._v("\n              职位订阅\n            ")]
                   )
@@ -1131,7 +1131,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "hidden md:block" }, [
           _c("div", {
             staticClass:
-              "-mb-10 h-16 w-32 bg-indigo-300 absolute left-0 transform skew-x-0 -skew-y-20",
+              "-mb-10 h-16 w-32 bg-teal-300 absolute left-0 transform skew-x-0 -skew-y-20",
             staticStyle: { bottom: "55%" }
           }),
           _vm._v(" "),
@@ -1149,7 +1149,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", {
             staticClass:
-              "mb-6 h-16 w-32 bg-indigo-300 absolute right-0 transform skew-x-0 -skew-y-20",
+              "mb-6 h-16 w-32 bg-teal-300 absolute right-0 transform skew-x-0 -skew-y-20",
             staticStyle: { bottom: "10%" }
           }),
           _vm._v(" "),

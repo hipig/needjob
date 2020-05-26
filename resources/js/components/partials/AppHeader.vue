@@ -3,7 +3,7 @@
     <div class="md:flex items-center justify-between mx-auto max-w-6xl">
       <div class="flex justify-between md:flex-none items-center">
         <a href="/" class="flex items-center py-2">
-          <span class="text-2xl font-semibold text-indigo-600">NeedJob</span>
+          <span class="text-2xl font-semibold text-teal-600">NeedJob</span>
         </a>
         <div class="-mr-2 flex items-center md:hidden">
           <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-700 transition duration-150 ease-in-out">
@@ -14,14 +14,14 @@
         </div>
       </div>
       <div class="hidden md:block">
-        <a href="#" class="mr-6 py-6 inline-block font-medium hover:text-indigo-600 text-gray-600">职位</a>
-        <a href="#" class="mr-6 py-6 inline-block font-medium hover:text-indigo-600 text-gray-600">技能标签</a>
-        <a href="#" class="mr-6 py-6 inline-block font-medium hover:text-indigo-600 text-gray-600">公司</a>
-        <a href="#" class="mr-6 py-6 inline-block font-medium hover:text-indigo-600 text-gray-600">关于我们</a>
+        <a href="#" class="mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600">职位</a>
+        <a href="#" class="mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600">技能标签</a>
+        <a href="#" class="mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600">公司</a>
+        <a href="#" class="mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600">关于我们</a>
       </div>
       <div class="hidden md:block">
-        <a href="#" class="px-6 py-1 mr-1 inline-block font-medium text-gray-600 hover:text-indigo-600">登录</a>
-        <a href="#" class="base-button inline-flex items-center justify-center font-medium focus:outline-none rounded-full px-6 py-1 border-2 border-indigo-600 bg-indigo-600 hover:bg-indigo-700 hover:border-indigo-700 text-white">注册</a>
+        <a href="#" class="px-6 py-1 mr-1 inline-block font-medium text-gray-600 hover:text-teal-600">登录</a>
+        <a href="#" class="base-button inline-flex items-center justify-center font-medium focus:outline-none rounded-full px-6 py-1 border-2 border-teal-600 bg-teal-600 hover:bg-teal-700 hover:border-teal-700 text-white">注册</a>
       </div>
     </div>
   </div>

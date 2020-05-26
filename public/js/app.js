@@ -16184,7 +16184,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "div",
-      { staticClass: "px-4 py-16 bg-white border-b-8 border-indigo-600" },
+      { staticClass: "px-4 py-16 bg-white border-b-8 border-teal-600" },
       [
         _c("div", { staticClass: "max-w-6xl mx-auto" }, [
           _c("div", { staticClass: "flex flex-wrap md:flex-1 -mx-4" }, [
@@ -16192,7 +16192,7 @@ var staticRenderFns = [
               _c(
                 "a",
                 {
-                  staticClass: "text-2xl font-semibold text-indigo-600",
+                  staticClass: "text-2xl font-semibold text-teal-600",
                   attrs: { href: "/" }
                 },
                 [_vm._v("NeedJob")]
@@ -16212,7 +16212,7 @@ var staticRenderFns = [
               _c(
                 "a",
                 {
-                  staticClass: "block text-sm mb-2 hover:text-indigo-600",
+                  staticClass: "block text-sm mb-2 hover:text-teal-600",
                   attrs: { href: "#" }
                 },
                 [_vm._v("职位搜索")]
@@ -16221,7 +16221,7 @@ var staticRenderFns = [
               _c(
                 "a",
                 {
-                  staticClass: "block text-sm mb-2 hover:text-indigo-600",
+                  staticClass: "block text-sm mb-2 hover:text-teal-600",
                   attrs: { href: "#" }
                 },
                 [_vm._v("关于我们")]
@@ -16230,7 +16230,7 @@ var staticRenderFns = [
               _c(
                 "a",
                 {
-                  staticClass: "block text-sm mb-2 hover:text-indigo-600",
+                  staticClass: "block text-sm mb-2 hover:text-teal-600",
                   attrs: { href: "#" }
                 },
                 [_vm._v("常见问题")]
@@ -16251,7 +16251,7 @@ var staticRenderFns = [
                 "a",
                 {
                   staticClass:
-                    "inline-flex block text-sm mb-2 hover:text-indigo-600",
+                    "inline-flex block text-sm mb-2 hover:text-teal-600",
                   attrs: { href: "#" }
                 },
                 [_vm._v("技术支持")]
@@ -16260,7 +16260,7 @@ var staticRenderFns = [
               _c(
                 "a",
                 {
-                  staticClass: "block text-sm mb-2 hover:text-indigo-600",
+                  staticClass: "block text-sm mb-2 hover:text-teal-600",
                   attrs: { href: "#" }
                 },
                 [_vm._v("隐私政策")]
@@ -16269,7 +16269,7 @@ var staticRenderFns = [
               _c(
                 "a",
                 {
-                  staticClass: "block text-sm mb-2 hover:text-indigo-600",
+                  staticClass: "block text-sm mb-2 hover:text-teal-600",
                   attrs: { href: "#" }
                 },
                 [_vm._v("服务条款")]
@@ -16278,7 +16278,7 @@ var staticRenderFns = [
               _c(
                 "a",
                 {
-                  staticClass: "block text-sm mb-2 hover:text-indigo-600",
+                  staticClass: "block text-sm mb-2 hover:text-teal-600",
                   attrs: { href: "#" }
                 },
                 [_vm._v("职位发布规则")]
@@ -16306,7 +16306,7 @@ var staticRenderFns = [
               _c(
                 "a",
                 {
-                  staticClass: "block text-sm mb-2 hover:text-indigo-600",
+                  staticClass: "block text-sm mb-2 hover:text-teal-600",
                   attrs: { href: "#" }
                 },
                 [_vm._v("在线留言")]
@@ -16424,7 +16424,7 @@ var staticRenderFns = [
       "a",
       { staticClass: "flex items-center py-2", attrs: { href: "/" } },
       [
-        _c("span", { staticClass: "text-2xl font-semibold text-indigo-600" }, [
+        _c("span", { staticClass: "text-2xl font-semibold text-teal-600" }, [
           _vm._v("NeedJob")
         ])
       ]
@@ -16439,7 +16439,7 @@ var staticRenderFns = [
         "a",
         {
           staticClass:
-            "mr-6 py-6 inline-block font-medium hover:text-indigo-600 text-gray-600",
+            "mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600",
           attrs: { href: "#" }
         },
         [_vm._v("职位")]
@@ -16449,7 +16449,7 @@ var staticRenderFns = [
         "a",
         {
           staticClass:
-            "mr-6 py-6 inline-block font-medium hover:text-indigo-600 text-gray-600",
+            "mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600",
           attrs: { href: "#" }
         },
         [_vm._v("技能标签")]
@@ -16459,7 +16459,7 @@ var staticRenderFns = [
         "a",
         {
           staticClass:
-            "mr-6 py-6 inline-block font-medium hover:text-indigo-600 text-gray-600",
+            "mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600",
           attrs: { href: "#" }
         },
         [_vm._v("公司")]
@@ -16469,7 +16469,7 @@ var staticRenderFns = [
         "a",
         {
           staticClass:
-            "mr-6 py-6 inline-block font-medium hover:text-indigo-600 text-gray-600",
+            "mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600",
           attrs: { href: "#" }
         },
         [_vm._v("关于我们")]
@@ -16485,7 +16485,7 @@ var staticRenderFns = [
         "a",
         {
           staticClass:
-            "px-6 py-1 mr-1 inline-block font-medium text-gray-600 hover:text-indigo-600",
+            "px-6 py-1 mr-1 inline-block font-medium text-gray-600 hover:text-teal-600",
           attrs: { href: "#" }
         },
         [_vm._v("登录")]
@@ -16495,7 +16495,7 @@ var staticRenderFns = [
         "a",
         {
           staticClass:
-            "base-button inline-flex items-center justify-center font-medium focus:outline-none rounded-full px-6 py-1 border-2 border-indigo-600 bg-indigo-600 hover:bg-indigo-700 hover:border-indigo-700 text-white",
+            "base-button inline-flex items-center justify-center font-medium focus:outline-none rounded-full px-6 py-1 border-2 border-teal-600 bg-teal-600 hover:bg-teal-700 hover:border-teal-700 text-white",
           attrs: { href: "#" }
         },
         [_vm._v("注册")]
