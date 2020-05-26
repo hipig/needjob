@@ -8,13 +8,11 @@
 
   <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
-<body>
+<body class="bg-gray-100 antialiased text-gray-600 font-sans">
   <div id="app">
     <router-view></router-view>
   </div>
 
-  <script src="{{ mix('js/manifest.js') }}"></script>
-  <script src="{{ mix('js/vendor.js') }}"></script>
   <script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>

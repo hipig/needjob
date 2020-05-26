@@ -1,15 +1,17 @@
-import Welcome from '@/views/Welcome'
+import MainLayout from '@/layout/MainLayout'
 
 export default [
-
     {
-        path: '',
-        redirect: '/welcome',
-    },
-    {
-        path: '/welcome',
-        name: 'Welcome',
-        component: Welcome
+      path: '',
+      component: MainLayout,
+      redirect: '/',
+      children: [
+        {
+          path: '/',
+          name: 'home',
+          component: ()=>import('@/views/Home.vue')
+        }
+      ]
     }
 
 ]

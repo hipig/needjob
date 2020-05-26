@@ -13,13 +13,10 @@ const tailwindcss = require('tailwindcss');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-  .extract([
-    'axios',
-    'vue-router',
-    'vue',
-    'vuex',
-  ])
   .webpackConfig({
+    output: {
+      chunkFilename: 'js/chunks/[name].js'
+    },
     resolve: {
       alias: {
         '@': path.resolve(__dirname, 'resources/js')

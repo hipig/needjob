@@ -1,8 +1,18 @@
 module.exports = {
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      skew: {
+        '20': '20deg',
+        '-20': '-20deg'
+      }
+    },
   },
-  variants: {},
-  plugins: [],
+  variants: {
+    textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+    backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
+  },
+  plugins: [
+    require('@tailwindcss/ui'),
+  ],
 }

@@ -11,7 +11,7 @@ export default router
 function createRouter () {
   const router = new Router({
     mode: 'history',
-    base: '/mono',
+    base: '/',
     routes
   })
 
