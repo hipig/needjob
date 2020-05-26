@@ -16295,12 +16295,18 @@ var staticRenderFns = [
                 [_vm._v("联系方式")]
               ),
               _vm._v(" "),
-              _c("span", { staticClass: "block text-sm mb-2" }, [
-                _vm._v("\n          联系电话：400-628-2835\n        ")
+              _c("div", { staticClass: "block text-sm mb-2" }, [
+                _c("span", { staticClass: "block sm:inline" }, [
+                  _vm._v("联系电话：")
+                ]),
+                _vm._v("400-628-2835\n        ")
               ]),
               _vm._v(" "),
-              _c("span", { staticClass: "block text-sm mb-2" }, [
-                _vm._v("\n          企业服务邮箱：cc@lagou.com\n        ")
+              _c("div", { staticClass: "block text-sm mb-2" }, [
+                _c("span", { staticClass: "block sm:inline" }, [
+                  _vm._v("企业服务邮箱：")
+                ]),
+                _vm._v("cc@lagou.com\n        ")
               ]),
               _vm._v(" "),
               _c(

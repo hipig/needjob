@@ -20,12 +20,12 @@
         </div>
         <div class="w-1/2 md:w-1/5 px-4 mb-6">
           <p class="mb-3 text-gray-500 text-xs font-bold tracking-wider uppercase">联系方式</p>
-          <span class="block text-sm mb-2">
-            联系电话：400-628-2835
-          </span>
-          <span class="block text-sm mb-2">
-            企业服务邮箱：cc@lagou.com
-          </span>
+          <div class="block text-sm mb-2">
+            <span class="block sm:inline">联系电话：</span>400-628-2835
+          </div>
+          <div class="block text-sm mb-2">
+            <span class="block sm:inline">企业服务邮箱：</span>cc@lagou.com
+          </div>
           <a href="#" class="block text-sm mb-2 hover:text-teal-600">在线留言</a>
         </div>
       </div>

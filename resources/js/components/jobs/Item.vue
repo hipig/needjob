@@ -9,7 +9,7 @@
           <div class="md:flex mb-4">
             <div class="flex-1">
               <div class="mb-1 pr-3">
-                <a :href="'/jobs/'+detail.id" class="inline-block text-lg text-gray-700 font-semibold leading-normal font-serif">{{ detail.title }}</a>
+                <a :href="'/jobs/'+detail.id" class="inline-block text-lg text-gray-700 font-semibold leading-normal">{{ detail.title }}</a>
               </div>
               <p class="mb-1 font-semibold inline-block text-sm text-gray-600 leading-normal">{{ detail.company.title }}</p>
               <p class="mb-1 inline-block md:block leading-normal">
