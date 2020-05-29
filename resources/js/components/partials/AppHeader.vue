@@ -20,7 +20,7 @@
         <a href="#" class="mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600">关于我们</a>
       </div>
       <div class="hidden md:block">
-        <a href="#" class="px-6 py-1 mr-1 inline-block font-medium text-gray-600 hover:text-teal-600">登录</a>
+        <a href="/auth/login" class="px-6 py-1 mr-1 inline-block font-medium text-gray-600 hover:text-teal-600">登录</a>
         <a href="#" class="base-button inline-flex items-center justify-center font-medium focus:outline-none rounded-full px-6 py-1 border-2 border-teal-600 bg-teal-600 hover:bg-teal-700 hover:border-teal-700 text-white">注册</a>
       </div>
     </div>

@@ -32,11 +32,6 @@
           </div>
         </div>
         <div class="lg:w-2/5 relative hidden md:block">
-          <div class="md:hidden rounded-t-full" style="background: rgb(238, 248, 244);">
-            <div class="mx-auto md:hidden text-center" style="width: 200px;">
-              <lottie :options="lottieOptions" :width="200" :height="200"></lottie>
-            </div>
-          </div>
           <lottie :options="lottieOptions" :width="420" :height="420" class="mx-auto hidden md:block"></lottie>
         </div>
       </div>

@@ -212,11 +212,6 @@ var _assets_lottie_banner_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PUR
 //
 //
 //
-//
-//
-//
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -586,33 +581,6 @@ var render = function() {
             "div",
             { staticClass: "lg:w-2/5 relative hidden md:block" },
             [
-              _c(
-                "div",
-                {
-                  staticClass: "md:hidden rounded-t-full",
-                  staticStyle: { background: "rgb(238, 248, 244)" }
-                },
-                [
-                  _c(
-                    "div",
-                    {
-                      staticClass: "mx-auto md:hidden text-center",
-                      staticStyle: { width: "200px" }
-                    },
-                    [
-                      _c("lottie", {
-                        attrs: {
-                          options: _vm.lottieOptions,
-                          width: 200,
-                          height: 200
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ]
-              ),
-              _vm._v(" "),
               _c("lottie", {
                 staticClass: "mx-auto hidden md:block",
                 attrs: { options: _vm.lottieOptions, width: 420, height: 420 }
