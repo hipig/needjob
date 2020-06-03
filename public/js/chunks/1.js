@@ -68,7 +68,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'authLogin'
+  name: 'AuthLogin'
 });
 
 /***/ }),
@@ -92,7 +92,7 @@ var render = function() {
     "div",
     {
       staticClass:
-        "relative px-4 lg:px-6 md:py-16 lg:py-24 bg-gray-100 h-screen flex items-center justify-center"
+        "relative px-4 lg:px-6 md:py-16 lg:py-24 bg-gray-100 min-h-screen flex items-center justify-center"
     },
     [
       _c("div", { staticClass: "absolute left-0 right-0 top-0 bg-white" }, [
@@ -145,7 +145,7 @@ var render = function() {
               "shadow w-full rounded-lg bg-white overflow-hidden w-full block"
           },
           [
-            _c("div", { staticClass: "px-8 py-6" }, [
+            _c("div", { staticClass: "p-8" }, [
               _c(
                 "p",
                 {

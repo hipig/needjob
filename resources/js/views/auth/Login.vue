@@ -1,5 +1,5 @@
 <template>
-  <div class="relative px-4 lg:px-6 md:py-16 lg:py-24 bg-gray-100 h-screen flex items-center justify-center">
+  <div class="relative px-4 lg:px-6 md:py-16 lg:py-24 bg-gray-100 min-h-screen flex items-center justify-center">
     <div class="absolute left-0 right-0 top-0 bg-white">
       <div class="container px-4 mx-auto py-6">
         <div class="flex items-center justify-between">
@@ -25,7 +25,7 @@
         </a>
       </div>
       <div class="shadow w-full rounded-lg bg-white overflow-hidden w-full block">
-        <div class="px-8 py-6">
+        <div class="p-8">
           <p class="mb-1 text-center text-xl md:text-2xl text-gray-700 font-bold leading-tight tracking-tight">欢迎登录</p>
           <p class="mb-6 text-center text-sm text-gray-600 leading-normal">请输入您的邮箱地址和密码</p>
           <form action="#">
@@ -58,6 +58,6 @@
 
 <script>
   export default {
-    name: 'authLogin',
+    name: 'AuthLogin',
   }
 </script>

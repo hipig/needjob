@@ -1169,7 +1169,7 @@ module.exports = "/images/SearchEngineMarketing.png?1b58bbba71c491dfb6db96dd834d
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/nj-banner.svg?9b9a8cb37f807f59747d513234c89004";
+module.exports = "/images/nj-banner.svg?c9f1d2a94e4e680159517fedfe631a57";
 
 /***/ }),
 
