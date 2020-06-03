@@ -16985,9 +16985,55 @@ var render = function() {
             ]
           ),
           _vm._v(" "),
-          _vm._m(1),
+          _c("div", { staticClass: "hidden md:block" }, [
+            _c(
+              "a",
+              {
+                staticClass:
+                  "mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600",
+                class: {
+                  "menu-active text-teal-600": _vm.currentRouteName === "jobs"
+                },
+                attrs: { href: "/jobs" }
+              },
+              [_vm._v("职位")]
+            ),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass:
+                  "mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600",
+                class: {
+                  "menu-active text-teal-600": _vm.currentRouteName === "tags"
+                },
+                attrs: { href: "#" }
+              },
+              [_vm._v("技能标签")]
+            ),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass:
+                  "mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600",
+                attrs: { href: "#" }
+              },
+              [_vm._v("公司")]
+            ),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass:
+                  "mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600",
+                attrs: { href: "#" }
+              },
+              [_vm._v("关于我们")]
+            )
+          ]),
           _vm._v(" "),
-          _vm._m(2)
+          _vm._m(1)
         ]
       )
     ]
@@ -17007,52 +17053,6 @@ var staticRenderFns = [
         ])
       ]
     )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "hidden md:block" }, [
-      _c(
-        "a",
-        {
-          staticClass:
-            "mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600",
-          attrs: { href: "#" }
-        },
-        [_vm._v("职位")]
-      ),
-      _vm._v(" "),
-      _c(
-        "a",
-        {
-          staticClass:
-            "mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600",
-          attrs: { href: "#" }
-        },
-        [_vm._v("技能标签")]
-      ),
-      _vm._v(" "),
-      _c(
-        "a",
-        {
-          staticClass:
-            "mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600",
-          attrs: { href: "#" }
-        },
-        [_vm._v("公司")]
-      ),
-      _vm._v(" "),
-      _c(
-        "a",
-        {
-          staticClass:
-            "mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600",
-          attrs: { href: "#" }
-        },
-        [_vm._v("关于我们")]
-      )
-    ])
   },
   function() {
     var _vm = this
@@ -33890,29 +33890,35 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ([{
   path: '',
-  name: 'Main',
+  name: 'main',
   component: _layout_MainLayout__WEBPACK_IMPORTED_MODULE_0__["default"],
   redirect: '/',
   children: [{
     path: '/',
     name: 'home',
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! @/views/Home.vue */ "./resources/js/views/Home.vue"));
+      return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(4)]).then(__webpack_require__.bind(null, /*! @/views/Home.vue */ "./resources/js/views/Home.vue"));
+    }
+  }, {
+    path: '/jobs',
+    name: 'jobs',
+    component: function component() {
+      return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(5)]).then(__webpack_require__.bind(null, /*! @/views/jobs/Index.vue */ "./resources/js/views/jobs/Index.vue"));
     }
   }]
 }, {
   path: '/auth',
-  name: 'Auth',
+  name: 'auth',
   component: _layout_BlankLayout__WEBPACK_IMPORTED_MODULE_1__["default"],
   children: [{
     path: 'login',
-    name: 'AuthLogin',
+    name: 'authLogin',
     component: function component() {
       return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! @/views/auth/Login.vue */ "./resources/js/views/auth/Login.vue"));
     }
   }, {
     path: 'register',
-    name: 'AuthRegister',
+    name: 'authRegister',
     component: function component() {
       return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! @/views/auth/Register.vue */ "./resources/js/views/auth/Register.vue"));
     }

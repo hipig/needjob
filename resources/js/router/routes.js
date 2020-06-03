@@ -4,7 +4,7 @@ import BlankLayout from '@/layout/BlankLayout'
 export default [
   {
     path: '',
-    name: 'Main',
+    name: 'main',
     component: MainLayout,
     redirect: '/',
     children: [
@@ -12,22 +12,27 @@ export default [
         path: '/',
         name: 'home',
         component: ()=>import('@/views/Home.vue')
+      },
+      {
+        path: '/jobs',
+        name: 'jobs',
+        component: ()=>import('@/views/jobs/Index.vue')
       }
     ]
   },
   {
     path: '/auth',
-    name: 'Auth',
+    name: 'auth',
     component: BlankLayout,
     children: [
       {
         path: 'login',
-        name: 'AuthLogin',
+        name: 'authLogin',
         component: ()=>import('@/views/auth/Login.vue')
       },
       {
         path: 'register',
-        name: 'AuthRegister',
+        name: 'authRegister',
         component: ()=>import('@/views/auth/Register.vue')
       }
     ]

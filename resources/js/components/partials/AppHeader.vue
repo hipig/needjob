@@ -14,8 +14,8 @@
         </div>
       </div>
       <div class="hidden md:block">
-        <a href="#" class="mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600">职位</a>
-        <a href="#" class="mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600">技能标签</a>
+        <a href="/jobs" class="mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600" :class="{'menu-active text-teal-600': currentRouteName === 'jobs'}">职位</a>
+        <a href="#" class="mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600" :class="{'menu-active text-teal-600': currentRouteName === 'tags'}">技能标签</a>
         <a href="#" class="mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600">公司</a>
         <a href="#" class="mr-6 py-6 inline-block font-medium hover:text-teal-600 text-gray-600">关于我们</a>
       </div>

@@ -58,6 +58,6 @@
 
 <script>
   export default {
-    name: 'AuthLogin',
+    name: 'authLogin',
   }
 </script>

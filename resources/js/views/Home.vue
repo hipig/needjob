@@ -133,7 +133,7 @@
   import JobItem from "@/components/jobs/Item"
 
   export default {
-    name: "Home",
+    name: "home",
     components: {
       JobItem
     },

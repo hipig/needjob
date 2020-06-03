@@ -1,6 +1,8 @@
 <template>
   <div class="shadow w-full rounded-lg bg-white overflow-hidden w-full block mb-4 relative">
     <div class="px-8 py-6">
+      <div class="bg-red-500 text-white uppercase tracking-wide text-xs font-semibold rounded-bl-full absolute top-0 right-0 pl-4 pr-2 py-2" v-if="newest">新</div>
+      <div class="bg-orange-500 text-white uppercase tracking-wide text-xs font-semibold rounded-bl-full absolute top-0 right-0 pl-4 pr-2 py-2" v-if="recommended">荐</div>
       <div class="flex">
         <a :href="'/companies/'+detail.company.id" class="flex-shrink-0 w-16 h-16 md:w-24 md:h-24 rounded-lg bg-gray-100 block mr-5 overflow-hidden border p-1">
           <img :src="detail.cover" alt="Company Logo" class="object-contain w-full h-full rounded-lg">
@@ -54,7 +56,15 @@
       detail: {
         type: Object,
         default: () => {}
-      }
+      },
+      newest: {
+        type: Boolean,
+        default: false
+      },
+      recommended: {
+        type: Boolean,
+        default: false
+      },
     }
   }
 </script>

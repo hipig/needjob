@@ -30,8 +30,7 @@
               <div class="mb-4">
                 <label class="form-label block mb-1 font-semibold text-gray-700">选择类型</label>
                 <label for="type_1" class="items-center mb-2 clearfix relative inline-flex mr-4 border-2 p-3 rounded-lg">
-                  <input id="type_1" type="radio" name="type" class="check-custom" checked>
-                  <span class="check-toggle flex-shrink-0 large"></span>
+                  <input id="type_1" type="radio" name="type" class="form-radio w-5 h-5" checked>
                   <div class="ml-4">
                     <div class="flex">
                       <div class="w-24">
@@ -41,8 +40,7 @@
                   </div>
                 </label>
                 <label for="type_2" class="items-center mb-2 clearfix relative inline-flex mr-4 border-2 p-3 rounded-lg">
-                  <input id="type_2" type="radio" name="type" class="check-custom">
-                  <span class="check-toggle flex-shrink-0 large"></span>
+                  <input id="type_2" type="radio" name="type" class="form-radio w-5 h-5">
                   <div class="ml-4">
                     <div class="flex">
                       <div class="w-24">
@@ -87,50 +85,6 @@
 
 <script>
   export default {
-    name: 'AuthRegister'
+    name: 'authRegister'
   }
 </script>
-
-<style lang="scss" scoped>
-  input[type=radio].check-custom {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-
-    ~.check-toggle {
-      position: relative;
-      display: inline-block;
-      vertical-align: middle;
-      border: 2px solid #969696;
-      border-radius: 50%;
-      cursor: pointer;
-      box-sizing: border-box;
-      &.large {
-        width: 1.5rem;
-        height: 1.5rem;
-      }
-    }
-    &:hover~.check-toggle {
-      border: 2px solid #4a4a4a;
-    }
-    &:checked~.check-toggle {
-      border: 2px solid #047481;
-      &:after {
-        content: "";
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 50%;
-        height: 50%;
-        margin: auto;
-        position: absolute;
-        border-radius: 50%;
-        background: #047481;
-      }
-    }
-  }
-</style>
