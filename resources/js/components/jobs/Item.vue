@@ -14,16 +14,14 @@
                 <a :href="'/jobs/'+detail.id" class="inline-block text-lg text-gray-700 font-semibold leading-normal">{{ detail.title }}</a>
               </div>
               <p class="mb-1 font-semibold inline-block text-sm text-gray-600 leading-normal">{{ detail.company.title }}</p>
-              <p class="mb-1 inline-block md:block leading-normal">
-                <span v-for="(item, index) in detail.tags" :index="index" class="px-2 rounded-full tracking-wide text-xs inline-block mr-1 bg-gray-100 border-2 border-gray-200 hover:text-gray-700">{{ item }}</span>
-              </p>
+              <p class="mb-1 inline-block md:block leading-normal">{{ detail.category.title }}</p>
             </div>
             <div class="md:w-48 flex-col justify-between mt-1">
               <div class="mb-1 md:flex-1 flex items-center">
                 <svg fill="none" class="stroke-current w-6 h-6 mr-2 text-gray-400" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/>
                 </svg>
-                <p class="text-sm text-gray-600 leading-normal">{{ detail.category.title }}</p>
+                <p class="text-sm text-gray-600 leading-normal">{{ detail.city }}</p>
               </div>
               <div class="mb-1 md:flex-1 flex items-center">
                 <svg fill="none" class="stroke-current w-6 h-6 mr-2 text-gray-400" viewBox="0 0 24 24">

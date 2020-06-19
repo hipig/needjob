@@ -202,6 +202,7 @@
               title: '深圳欢悦科技有限公司'
             },
             tags: ['游戏', '直播', '英文'],
+            city: '深圳',
             salary: '10k-15k',
             type: '全职',
             created_at: '6小时前',
@@ -221,6 +222,7 @@
             },
             tags: ['Blockchain', 'Rust', 'Substrate'],
             salary: '10k-15k',
+            city: '深圳',
             type: '全职',
             created_at: '2020-05-01',
             is_recommend: true
@@ -239,6 +241,7 @@
             },
             tags: ['游戏', '直播', '英文'],
             salary: '10k-15k',
+            city: '广州',
             type: '全职',
             created_at: '6小时前'
           },
@@ -256,6 +259,7 @@
             },
             tags: ['Blockchain', 'Rust', 'Substrate'],
             salary: '10k-15k',
+            city: '成都',
             type: '全职',
             created_at: '2020-05-01'
           },
@@ -273,6 +277,7 @@
             },
             tags: ['游戏', '直播', '英文'],
             salary: '10k-15k',
+            city: '长沙',
             type: '全职',
             created_at: '6小时前'
           },
@@ -290,6 +295,7 @@
             },
             tags: ['Blockchain', 'Rust', 'Substrate'],
             salary: '10k-15k',
+            city: '深圳',
             type: '全职',
             created_at: '2020-05-01'
           },

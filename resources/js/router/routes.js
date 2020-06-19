@@ -1,6 +1,13 @@
 import MainLayout from '@/layout/MainLayout'
 import BlankLayout from '@/layout/BlankLayout'
 
+import Home from '@/views/Home'
+import JobsIndex from '@/views/jobs/Index'
+import JobsShow from '@/views/jobs/Show'
+
+import AuthLogin from '@/views/auth/Login'
+import AuthRegister from '@/views/auth/Register'
+
 export default [
   {
     path: '',
@@ -11,12 +18,17 @@ export default [
       {
         path: '/',
         name: 'home',
-        component: ()=>import('@/views/Home.vue')
+        component: Home
       },
       {
         path: '/jobs',
         name: 'jobs',
-        component: ()=>import('@/views/jobs/Index.vue')
+        component: JobsIndex
+      },
+      {
+        path: '/jobs/:id',
+        name: 'jobsShow',
+        component: JobsShow
       }
     ]
   },
@@ -28,12 +40,12 @@ export default [
       {
         path: 'login',
         name: 'authLogin',
-        component: ()=>import('@/views/auth/Login.vue')
+        component: AuthLogin
       },
       {
         path: 'register',
         name: 'authRegister',
-        component: ()=>import('@/views/auth/Register.vue')
+        component: AuthRegister
       }
     ]
   }

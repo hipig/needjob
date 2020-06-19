@@ -1,5 +1,6 @@
 const mix = require('laravel-mix');
 const tailwindcss = require('tailwindcss');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,7 +13,12 @@ const tailwindcss = require('tailwindcss');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
+mix.sass('resources/sass/app.scss', 'public/css')
+  .options({
+    processCssUrls: false,
+    postCss: [ tailwindcss('./tailwind.config.js') ],
+  })
+  .js('resources/js/app.js', 'public/js')
   .webpackConfig({
     output: {
       chunkFilename: 'js/chunks/[name].js'
@@ -21,11 +27,6 @@ mix.js('resources/js/app.js', 'public/js')
       alias: {
         '@': path.resolve(__dirname, 'resources/js')
       }
-    },
-  })
-  .sass('resources/sass/app.scss', 'public/css')
-  .options({
-    processCssUrls: false,
-    postCss: [ tailwindcss('./tailwind.config.js') ],
+    }
   })
   .version();
