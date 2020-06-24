@@ -21,7 +21,7 @@
                 <svg fill="none" class="stroke-current w-6 h-6 mr-2 text-gray-400" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/>
                 </svg>
-                <p class="text-sm text-gray-600 leading-normal">{{ detail.city }}</p>
+                <p class="text-sm text-gray-600 leading-normal">{{ detail.type }}</p>
               </div>
               <div class="mb-1 md:flex-1 flex items-center">
                 <svg fill="none" class="stroke-current w-6 h-6 mr-2 text-gray-400" viewBox="0 0 24 24">
@@ -33,12 +33,14 @@
                 <svg fill="none" class="stroke-current w-6 h-6 mr-2 text-gray-400" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                 </svg>
-                <p class="text-sm text-gray-600 leading-normal">{{ detail.type }}</p>
+                <p class="text-sm text-gray-600 leading-normal">{{ detail.created_at }}</p>
               </div>
             </div>
           </div>
           <div class="flex justify-between items-center">
-            <p class="text-sm text-gray-600 leading-normal">{{ detail.created_at }}</p>
+            <p class="text-xs">
+              <span class="px-2 rounded-full uppercase inline-block mr-2 bg-teal-100 text-teal-500 border-2 border-teal-200" v-for="(item, index) in detail.tags" :key="index">{{ item }}</span>
+            </p>
             <a :href="'/jobs/'+detail.id" class="border-b-2 text-sm inline-flex text-teal-600 border-teal-200 hover:text-teal-700 hover:border-teal-400">查看详情</a>
           </div>
         </div>

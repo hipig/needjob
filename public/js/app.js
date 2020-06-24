@@ -165,6 +165,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "JobItem",
   props: {
@@ -1103,6 +1105,74 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -17646,7 +17716,7 @@ var render = function() {
                       _c(
                         "p",
                         { staticClass: "text-sm text-gray-600 leading-normal" },
-                        [_vm._v(_vm._s(_vm.detail.city))]
+                        [_vm._v(_vm._s(_vm.detail.type))]
                       )
                     ]
                   ),
@@ -17709,7 +17779,7 @@ var render = function() {
                       _c(
                         "p",
                         { staticClass: "text-sm text-gray-600 leading-normal" },
-                        [_vm._v(_vm._s(_vm.detail.type))]
+                        [_vm._v(_vm._s(_vm.detail.created_at))]
                       )
                     ]
                   )
@@ -17718,9 +17788,22 @@ var render = function() {
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "flex justify-between items-center" }, [
-              _c("p", { staticClass: "text-sm text-gray-600 leading-normal" }, [
-                _vm._v(_vm._s(_vm.detail.created_at))
-              ]),
+              _c(
+                "p",
+                { staticClass: "text-xs" },
+                _vm._l(_vm.detail.tags, function(item, index) {
+                  return _c(
+                    "span",
+                    {
+                      key: index,
+                      staticClass:
+                        "px-2 rounded-full uppercase inline-block mr-2 bg-teal-100 text-teal-500 border-2 border-teal-200"
+                    },
+                    [_vm._v(_vm._s(item))]
+                  )
+                }),
+                0
+              ),
               _vm._v(" "),
               _c(
                 "a",
@@ -20164,7 +20247,7 @@ var render = function() {
                     ),
                     _vm._v(" "),
                     _c("p", { staticClass: "text-gray-600 leading-normal" }, [
-                      _vm._v("深圳")
+                      _vm._v("全职")
                     ])
                   ]
                 ),
@@ -20223,18 +20306,72 @@ var render = function() {
                     ),
                     _vm._v(" "),
                     _c("p", { staticClass: "text-gray-600 leading-normal" }, [
-                      _vm._v("全职")
+                      _vm._v("2020-05-01")
                     ])
                   ]
                 )
               ])
             ]),
             _vm._v(" "),
-            _vm._m(0)
+            _c(
+              "div",
+              {
+                staticClass: "md:w-1/3 px-4 px-4 flex md:flex-col mt-4 md:mt-0"
+              },
+              [
+                _c("div", { staticClass: "flex-1 mr-4 md:mr-0" }, [
+                  _c(
+                    "button",
+                    {
+                      staticClass:
+                        "w-full md:w-64 mb-2 inline-flex items-center justify-center font-medium focus:outline-none rounded-full px-4 py-2 border-2 border-teal-600 bg-teal-600 hover:bg-teal-700 hover:border-teal-700 text-white",
+                      attrs: { type: "button" }
+                    },
+                    [_vm._v("投个简历")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      staticClass:
+                        "w-full md:w-64 inline-flex items-center justify-center font-medium focus:outline-none rounded-full px-4 py-2 border-2 border-gray-300 bg-gray-100 hover:border-teal-600 text-gray-500 group",
+                      attrs: { type: "button" }
+                    },
+                    [
+                      _c(
+                        "svg",
+                        {
+                          staticClass:
+                            "stroke-current w-6 h-6 mr-2 text-gray-400 group-hover:text-teal-600",
+                          attrs: { fill: "none", viewBox: "0 0 24 24" }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              "stroke-linecap": "round",
+                              "stroke-linejoin": "round",
+                              "stroke-width": "2",
+                              d:
+                                "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                            }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("span", { staticClass: "group-hover:text-teal-600" }, [
+                        _vm._v("收藏")
+                      ])
+                    ]
+                  )
+                ])
+              ]
+            )
           ])
         ])
       ]
-    )
+    ),
+    _vm._v(" "),
+    _vm._m(0)
   ])
 }
 var staticRenderFns = [
@@ -20242,33 +20379,295 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "md:w-1/3 px-4 px-4 flex md:flex-col mt-4 md:mt-0" },
-      [
-        _c("div", { staticClass: "flex-1 mr-4 md:mr-0" }, [
-          _c(
-            "button",
-            {
-              staticClass:
-                "w-full md:w-64 mb-2 inline-flex items-center justify-center font-medium focus:outline-none rounded-full px-4 py-2 border-2 border-teal-600 bg-teal-600 hover:bg-teal-700 hover:border-teal-700 text-white",
-              attrs: { type: "button" }
-            },
-            [_vm._v("投个简历")]
-          ),
+    return _c("div", { staticClass: "py-10 px-4" }, [
+      _c("div", { staticClass: "max-w-6xl mx-auto" }, [
+        _c("div", { staticClass: "md:flex -mx-4" }, [
+          _c("div", { staticClass: "px-4 flex flex-col md:w-2/3" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "shadow w-full rounded-lg bg-white overflow-hidden w-full block mb-10 pb-5 flex-1"
+              },
+              [
+                _c("div", { staticClass: "px-8 py-6" }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "mb-1 text-lg text-gray-700 font-semibold leading-normal"
+                    },
+                    [_vm._v("Job Description")]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "mb-4" }, [
+                    _c("p", [
+                      _c("strong", [
+                        _vm._v("Required Knowledge, Skills, and Abilities")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        { staticStyle: { color: "rgb(88, 99, 104)" } },
+                        [
+                          _vm._v(
+                            "Our team is seeking an experienced front-end developer with a background in PHP, Laravel, HTML, CSS, vue, tailwind and Javascript. The right candidate will have a strong understanding of front-end frameworks."
+                          )
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [_c("br")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        { staticStyle: { color: "rgb(88, 99, 104)" } },
+                        [
+                          _vm._v(
+                            "As a front-end developer, you’ll join our team of designers and engineers to help scope, build, test, and launch new features & products. We’re seeking candidates with strong front-end opinions, attention to detail, and the desire to take ownership of the user experience."
+                          )
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [_c("br")]),
+                    _vm._v(" "),
+                    _c("p", [_c("strong", [_vm._v("Education + Experience")])]),
+                    _vm._v(" "),
+                    _c("ul", [
+                      _c("li", [
+                        _vm._v("Experience with Git workflows, HTML, CSS, Vue")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [_vm._v("Front-end framework like Tailwind")]),
+                      _vm._v(" "),
+                      _c("li", [_vm._v("Familiarity with Laravel")]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _vm._v(
+                          "Ability and willingness to learn, adapt to, and teach new technologies."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _vm._v(
+                          "Self-starter, you’re the kind of person that sees opportunity and tackles it!"
+                        )
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "mb-1 text-lg text-gray-700 font-semibold leading-normal"
+                    },
+                    [_vm._v("Skills")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "span",
+                    {
+                      staticClass:
+                        "px-2 rounded-full text-sm uppercase tracking-wide font-semibold inline-block mr-2 bg-teal-100 text-teal-500 border-2 border-teal-200"
+                    },
+                    [_vm._v("laravel")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "span",
+                    {
+                      staticClass:
+                        "px-2 rounded-full text-sm uppercase tracking-wide font-semibold inline-block mr-2 bg-teal-100 text-teal-500 border-2 border-teal-200"
+                    },
+                    [_vm._v("vue")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "span",
+                    {
+                      staticClass:
+                        "px-2 rounded-full text-sm uppercase tracking-wide font-semibold inline-block mr-2 bg-teal-100 text-teal-500 border-2 border-teal-200"
+                    },
+                    [_vm._v("tailwind")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "span",
+                    {
+                      staticClass:
+                        "px-2 rounded-full text-sm uppercase tracking-wide font-semibold inline-block mr-2 bg-teal-100 text-teal-500 border-2 border-teal-200"
+                    },
+                    [_vm._v("css")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "span",
+                    {
+                      staticClass:
+                        "px-2 rounded-full text-sm uppercase tracking-wide font-semibold inline-block mr-2 bg-teal-100 text-teal-500 border-2 border-teal-200"
+                    },
+                    [_vm._v("react")]
+                  )
+                ])
+              ]
+            )
+          ]),
           _vm._v(" "),
-          _c(
-            "button",
-            {
-              staticClass:
-                "w-full md:w-64 inline-flex items-center justify-center font-medium focus:outline-none rounded-full px-4 py-2 border-2 border-gray-300 bg-gray-100 hover:text-teal-600 hover:border-teal-400 text-gray-500",
-              attrs: { type: "button" }
-            },
-            [_vm._v("收藏")]
-          )
+          _c("div", { staticClass: "md:w-1/3 px-4 flex flex-col" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "shadow w-full rounded-lg bg-white overflow-hidden w-full block mb-10 flex-1"
+              },
+              [
+                _c("div", { staticClass: "px-8 py-6" }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "mb-4 text-lg text-gray-700 font-semibold leading-normal"
+                    },
+                    [_vm._v("关于 深圳欢悦科技有限公司")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "mb-4 flex-shrink-0 flex items-center w-24 h-24 p-2 rounded-lg bg-gray-100 border-2 block mx-auto overflow-hidden"
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "object-contain w-full h-full",
+                        attrs: {
+                          src:
+                            "https://jobsharbour.com/storage/company/5V6YTLBK6JpcjIBPj9tzG6s7SOnl8JxMVFP0oUuT.png",
+                          alt: "company-logo"
+                        }
+                      })
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "p",
+                    { staticClass: "text-base text-gray-600 leading-normal" },
+                    [
+                      _vm._v(
+                        "\n                Sumato is one of the leading providers of full-service B2B solutions, operating business decision making. Our research and forecasts help customers make more effective critical decisions, increasing revenues, saving costs, improving sustainability and reducing risk. Our expert team is on hand 24x7 to deliver the highest-quality analysis and support.\n              "
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "my-5" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "py-2 md:flex-1 flex items-center border-b border-gray-100 justify-between"
+                      },
+                      [
+                        _c(
+                          "p",
+                          {
+                            staticClass:
+                              "text-gray-500 text-xs font-bold tracking-wider uppercase"
+                          },
+                          [_vm._v("分类")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          {
+                            staticClass: "text-sm text-gray-600 leading-normal"
+                          },
+                          [_vm._v("服装/纺织/皮革")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "py-2 md:flex-1 flex items-center border-b border-gray-100 justify-between"
+                      },
+                      [
+                        _c(
+                          "p",
+                          {
+                            staticClass:
+                              "text-gray-500 text-xs font-bold tracking-wider uppercase"
+                          },
+                          [_vm._v("公司规模")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          {
+                            staticClass: "text-sm text-gray-600 leading-normal"
+                          },
+                          [_vm._v("0-25")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "py-2 md:flex-1 flex items-center border-b border-gray-100 justify-between"
+                      },
+                      [
+                        _c(
+                          "p",
+                          {
+                            staticClass:
+                              "text-gray-500 text-xs font-bold tracking-wider uppercase"
+                          },
+                          [_vm._v("官方网站")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "small text-teal-500 hover:text-teal-800",
+                            attrs: {
+                              href: "https://sumato.global",
+                              target: "_blank"
+                            }
+                          },
+                          [_vm._v("https://sumato.global")]
+                        )
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "mb-1 text-lg text-gray-700 font-semibold leading-normal"
+                    },
+                    [_vm._v("工作福利")]
+                  ),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-gray-600 leading-normal" }, [
+                    _vm._v("免费午餐，灵活假期")
+                  ])
+                ])
+              ]
+            )
+          ])
         ])
-      ]
-    )
+      ])
+    ])
   }
 ]
 render._withStripped = true
